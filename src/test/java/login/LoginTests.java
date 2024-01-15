@@ -17,7 +17,6 @@ public class LoginTests extends BaseTests {
     @Test
     public void invalidUsername(){
         //user enters invalid username and valid password
-
         loginPage.setUserName("Dan");
         loginPage.setPassword("SuperSecretPassword!");
         loginPage.clickOnSubmitButton();
@@ -26,7 +25,7 @@ public class LoginTests extends BaseTests {
     }
     @Test
     public void invalidPassword(){
-       // LoginPage loginPage =homePage.clickonLoginPage();
+        //user enters valid username and invalid password
         loginPage.setUserName("tomsmith");
         loginPage.setPassword("1234");
         loginPage.clickOnSubmitButton();
@@ -36,7 +35,7 @@ public class LoginTests extends BaseTests {
 
     @Test
     public void successfulLogin(){
-       // LoginPage loginPage =homePage.clickonLoginPage();
+        //user enters valid username and valid password
         loginPage.setUserName("tomsmith");
         loginPage.setPassword("SuperSecretPassword!");
         SecurePage securePage=loginPage.clickOnSubmitButton();

@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cb979c8-2f9a-4efc-b8d4-1ec21c0f5dc9" name="Changes" comment="Setting Up Selenium Project">
+    <list default="true" id="7cb979c8-2f9a-4efc-b8d4-1ec21c0f5dc9" name="Changes" comment="Adding More Test Cases for Login Page">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/DropDownPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/dropDown/DropDownTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/LoginPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/login/LoginTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/login/LoginTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -155,11 +157,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.LoginTests" />
-        <item itemvalue="TestNG.LoginTests.invalidPassword" />
-        <item itemvalue="Application.LoginTests" />
         <item itemvalue="TestNG.LoginTests.successfulLogin" />
+        <item itemvalue="TestNG.LoginTests.invalidPassword" />
         <item itemvalue="TestNG.LoginTests.invalidEmail" />
+        <item itemvalue="TestNG.LoginTests" />
+        <item itemvalue="Application.LoginTests" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705319163313</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Adding More Test Cases for Login Page">
+      <created>1705347832877</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1705347832877</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -195,6 +204,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Setting Up Selenium Project" />
-    <option name="LAST_COMMIT_MESSAGE" value="Setting Up Selenium Project" />
+    <MESSAGE value="Adding More Test Cases for Login Page" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding More Test Cases for Login Page" />
   </component>
 </project>

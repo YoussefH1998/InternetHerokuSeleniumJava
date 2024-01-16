@@ -16,6 +16,11 @@ public class HomePage {
         clickOnLink("Dropdown");
         return new DropDownPage(driver);
     }
+    public HoverPage clickonHoverPage(){
+        clickOnLink("Hovers");
+        return new HoverPage(driver);
+
+    }
     public void clickOnLink(String link){
         driver.findElement(By.linkText(link)).click();
     }

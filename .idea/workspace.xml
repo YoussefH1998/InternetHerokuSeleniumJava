@@ -4,11 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cb979c8-2f9a-4efc-b8d4-1ec21c0f5dc9" name="Changes" comment="Adding DropDownPage Test and refactoring code">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HoverPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/hover/HoverTests.java" afterDir="false" />
+    <list default="true" id="7cb979c8-2f9a-4efc-b8d4-1ec21c0f5dc9" name="Changes" comment="Adding Hovering Test">
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AlertsPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HorizontalSliderPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pages/KeyPressesPage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/alerts/AlertsTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/horizontalSlider/HorizontalSliderTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/keyPresses/KeyPressesTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,7 +62,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "D:/MyProject/SeleniumProject",
+    "last_opened_file_path": "D:/TestAutomationUSel/selenium-webdriver-java-course-c14",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
@@ -69,17 +74,17 @@
       <recent name="D:\MyProject\SeleniumProject\resources" />
     </key>
   </component>
-  <component name="RunManager" selected="TestNG.HoverTests.hoverandCheckForText">
-    <configuration name="HoverTests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.AlertsTests.thirdAlertTest">
+    <configuration name="AlertsTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hover.*" />
+          <option name="PATTERN" value="alerts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hover" />
-      <option name="MAIN_CLASS_NAME" value="hover.HoverTests" />
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.AlertsTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -87,17 +92,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HoverTests.hoverandCheckForText" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AlertsTests.thirdAlertTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hover.*" />
+          <option name="PATTERN" value="alerts.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hover" />
-      <option name="MAIN_CLASS_NAME" value="hover.HoverTests" />
-      <option name="METHOD_NAME" value="hoverandCheckForText" />
+      <option name="PACKAGE_NAME" value="alerts" />
+      <option name="MAIN_CLASS_NAME" value="alerts.AlertsTests" />
+      <option name="METHOD_NAME" value="thirdAlertTest" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -105,25 +110,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HoverTests.printHello" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="HorizontalSliderTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="hover.*" />
+          <option name="PATTERN" value="horizontalSlider.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="hover" />
-      <option name="MAIN_CLASS_NAME" value="hover.HoverTests" />
-      <option name="METHOD_NAME" value="printHello" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="PACKAGE_NAME" value="horizontalSlider" />
+      <option name="MAIN_CLASS_NAME" value="horizontalSlider.HorizontalSliderTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LoginTests.invalidPassword" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="KeyPressesTests" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="SeleniumProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="keyPresses.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="keyPresses" />
+      <option name="MAIN_CLASS_NAME" value="keyPresses.KeyPressesTests" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LoginTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="SeleniumProject" />
       <extension name="coverage">
         <pattern>
@@ -133,26 +154,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="login" />
       <option name="MAIN_CLASS_NAME" value="login.LoginTests" />
-      <option name="METHOD_NAME" value="invalidPassword" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="LoginTests.successfulLogin" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="SeleniumProject" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="login.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="login" />
-      <option name="MAIN_CLASS_NAME" value="login.LoginTests" />
-      <option name="METHOD_NAME" value="successfulLogin" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -161,11 +163,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.HoverTests.hoverandCheckForText" />
-        <item itemvalue="TestNG.HoverTests.printHello" />
-        <item itemvalue="TestNG.HoverTests" />
-        <item itemvalue="TestNG.LoginTests.successfulLogin" />
-        <item itemvalue="TestNG.LoginTests.invalidPassword" />
+        <item itemvalue="TestNG.AlertsTests.thirdAlertTest" />
+        <item itemvalue="TestNG.AlertsTests" />
+        <item itemvalue="TestNG.LoginTests" />
+        <item itemvalue="TestNG.HorizontalSliderTests" />
+        <item itemvalue="TestNG.KeyPressesTests" />
       </list>
     </recent_temporary>
   </component>
@@ -199,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705351468756</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Adding Hovering Test">
+      <created>1705412238953</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1705412238953</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -217,6 +226,7 @@
     <MESSAGE value="Setting Up Selenium Project" />
     <MESSAGE value="Adding More Test Cases for Login Page" />
     <MESSAGE value="Adding DropDownPage Test and refactoring code" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding DropDownPage Test and refactoring code" />
+    <MESSAGE value="Adding Hovering Test" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding Hovering Test" />
   </component>
 </project>

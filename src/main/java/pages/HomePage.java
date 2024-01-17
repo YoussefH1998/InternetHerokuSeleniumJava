@@ -19,7 +19,18 @@ public class HomePage {
     public HoverPage clickonHoverPage(){
         clickOnLink("Hovers");
         return new HoverPage(driver);
-
+    }
+    public HorizontalSliderPage clickonHorizontalSliderPage(){
+        clickOnLink("Horizontal Slider");
+        return new HorizontalSliderPage(driver);
+    }
+    public KeyPressesPage clickonKeyPressesPage(){
+        clickOnLink("Key Presses");
+        return new KeyPressesPage(driver);
+    }
+    public AlertsPage clickonAlertsPage(){
+        clickOnLink("JavaScript Alerts");
+        return new AlertsPage(driver);
     }
     public void clickOnLink(String link){
         driver.findElement(By.linkText(link)).click();

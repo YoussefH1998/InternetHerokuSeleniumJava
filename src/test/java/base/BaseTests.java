@@ -4,7 +4,10 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
+import org.testng.annotations.BeforeTest;
 import pages.HomePage;
+import static org.testng.Assert.*;
+
 
 public class BaseTests {
     private WebDriver driver;
@@ -15,8 +18,9 @@ public class BaseTests {
         driver=new ChromeDriver();
         driver.get("https://the-internet.herokuapp.com/");
         homePage=new HomePage(driver);
-        System.out.println(driver.getTitle());
+        assertEquals(driver.getTitle(),"The Internet");
     }
+
     @AfterClass
     public  void cleanup(){
         driver.quit();

@@ -4,16 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7cb979c8-2f9a-4efc-b8d4-1ec21c0f5dc9" name="Changes" comment="Adding Hovering Test">
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/AlertsPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/HorizontalSliderPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pages/KeyPressesPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/alerts/AlertsTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/horizontalSlider/HorizontalSliderTests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/keyPresses/KeyPressesTests.java" afterDir="false" />
+    <list default="true" id="7cb979c8-2f9a-4efc-b8d4-1ec21c0f5dc9" name="Changes" comment="Adding KeyPresses, HorizontalSlider and Alerts Pages &amp;Tests">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/pages/HomePage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/base/BaseTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -208,7 +200,14 @@
       <option name="project" value="LOCAL" />
       <updated>1705412238953</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Adding KeyPresses, HorizontalSlider and Alerts Pages &amp;Tests">
+      <created>1705497955431</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1705497955431</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -227,6 +226,7 @@
     <MESSAGE value="Adding More Test Cases for Login Page" />
     <MESSAGE value="Adding DropDownPage Test and refactoring code" />
     <MESSAGE value="Adding Hovering Test" />
-    <option name="LAST_COMMIT_MESSAGE" value="Adding Hovering Test" />
+    <MESSAGE value="Adding KeyPresses, HorizontalSlider and Alerts Pages &amp;Tests" />
+    <option name="LAST_COMMIT_MESSAGE" value="Adding KeyPresses, HorizontalSlider and Alerts Pages &amp;Tests" />
   </component>
 </project>

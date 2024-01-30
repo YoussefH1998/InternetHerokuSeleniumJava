@@ -4,7 +4,7 @@ Internet Heroku with Selenium Java in Page Object Model design pattern
 
 ### Prerequisites
 
-Knowledge of Java and Selenium
+Knowledge of Java, Selenium, Maven & Test NG
 
 ## Running the tests
 
@@ -18,7 +18,7 @@ To run these test we should have any integrated development environment that can
 
 ## Authors
 
-* **Youssef Fouad** - *Initial work* 
+* **Youssef Fouad**  
 
 
 
